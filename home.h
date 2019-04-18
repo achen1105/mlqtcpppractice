@@ -2,6 +2,8 @@
 #define HOME_H
 
 #include <QWidget>
+#include <QLabel>
+#include "windows.h"
 
 namespace Ui {
 class home;
@@ -12,7 +14,7 @@ class home : public QWidget
     Q_OBJECT
 
 public:
-    explicit home(QWidget *parent = nullptr);
+    explicit home(QWidget *parent = nullptr, windows *thewindows = nullptr);
     ~home();
 
 private:

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/aboutresources">
+        <file>mlbannerdraft.png</file>
+        <file>backtest.png</file>
+    </qresource>
+</RCC>

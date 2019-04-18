@@ -3,9 +3,7 @@
 
 #include <QWidget>
 #include <QStackedWidget>
-#include "about.h"
-#include "help.h"
-#include "home.h"
+#include <QVBoxLayout>
 
 namespace Ui {
 class windows;
@@ -19,9 +17,17 @@ public:
     explicit windows(QWidget *parent = nullptr);
     ~windows();
 
+    void addWindows(QWidget* window);
+
+public slots:
+    void goToPage0();
+    void goToPage1();
+    void goToPage2();
+
 private:
     Ui::windows *ui;
     QStackedWidget* mlwindows;
+    QVBoxLayout* layout;
 };
 
 #endif // WINDOWS_H
