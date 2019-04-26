@@ -26,13 +26,25 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    windows.cpp \
+    about.cpp \
+    help.cpp \
+    home.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    windows.h \
+    about.h \
+    help.h \
+    home.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    windows.ui \
+    about.ui \
+    help.ui \
+    home.ui
 
 CONFIG += mobility
 MOBILITY = 
@@ -42,3 +54,8 @@ MOBILITY =
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=
+
+RESOURCES += \
+    mlresources.qrc
