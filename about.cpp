@@ -10,7 +10,6 @@ about::about(QWidget *parent, windows *thewindows) :
 
     // QPixmap name(":/aboutresources/mlbannerdraft.png");
     // ui->mlName->setPixmap(name.scaled(900, 200, Qt::KeepAspectRatio));
-
    // QPixmap backButton(":/aboutresources/backtest");
     //QIcon backButtonIcon(backButton);
    // ui->aboutBackButton->setIcon(backButtonIcon);
