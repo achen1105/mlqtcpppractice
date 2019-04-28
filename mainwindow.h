@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLayout>
 #include "windows.h"
 #include "help.h"
 #include "home.h"

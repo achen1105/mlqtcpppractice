@@ -14,6 +14,8 @@ MainWindow::MainWindow(QWidget *parent) :
     about* myabout = new about(this, mywindows); // Page 1
     help* myhelp = new help(this, mywindows); // Page 2
     setCentralWidget(mywindows);
+    setWindowTitle("Maid Latte");
+    setFixedSize(1200, 675);
 
 }
 

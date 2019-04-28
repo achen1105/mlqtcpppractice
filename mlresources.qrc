@@ -1,6 +1,18 @@
 <RCC>
-    <qresource prefix="/aboutresources">
+    <qresource prefix="/images">
         <file>mlbannerdraft.png</file>
         <file>backtest.png</file>
+        <file>sakurabackground.gif</file>
+        <file>sakurabackground2.gif</file>
+        <file>cherry-blossom-background-2.jpg</file>
+        <file>flandomolang.gif</file>
+        <file>molangcooking.gif</file>
+        <file>molang-transparent-food.gif</file>
+        <file>molang100.gif</file>
+        <file>molangcoffee.jpg</file>
+        <file>coffeemolang.jpg</file>
+        <file>molanghotchocolate.gif</file>
+        <file>molanghotchocolate.png</file>
+        <file>mlname.png</file>
     </qresource>
 </RCC>

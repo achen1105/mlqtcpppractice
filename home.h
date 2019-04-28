@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QLabel>
+#include <QMovie>
 #include "windows.h"
 
 namespace Ui {

@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>windows</class>
- <widget class="QWidget" name="windows">
+ <author/>
+ <comment/>
+ <exportmacro/>
+ <class>kitchen</class>
+ <widget class="QWidget" name="kitchen">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1200</width>
-    <height>675</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
  </widget>
- <resources/>
+ <pixmapfunction/>
  <connections/>
 </ui>
