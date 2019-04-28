@@ -30,21 +30,42 @@ SOURCES += \
     windows.cpp \
     about.cpp \
     help.cpp \
-    home.cpp
+    home.cpp \
+    cafe.cpp \
+    customer.cpp \
+    order.cpp \
+    kitchen.cpp \
+    drink.cpp \
+    pastry.cpp \
+    game.cpp
 
 HEADERS += \
         mainwindow.h \
     windows.h \
     about.h \
     help.h \
-    home.h
+    home.h \
+    cafe.h \
+    customer.h \
+    order.h \
+    kitchen.h \
+    drink.h \
+    pastry.h \
+    game.h
 
 FORMS += \
         mainwindow.ui \
     windows.ui \
     about.ui \
     help.ui \
-    home.ui
+    home.ui \
+    cafe.ui \
+    customer.ui \
+    order.ui \
+    kitchen.ui \
+    drink.ui \
+    pastry.ui \
+    game.ui
 
 CONFIG += mobility
 MOBILITY = 
