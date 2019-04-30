@@ -44,6 +44,16 @@ void windows::goToPage2()
     mlwindows->setCurrentIndex(2);
 }
 
+void windows::goToPage3()
+{
+    mlwindows->setCurrentIndex(3);
+}
+
+void windows::goToPage4()
+{
+    mlwindows->setCurrentIndex(4);
+}
+
 /*
 void windows::goToPageNum(int num)
 {

@@ -37,7 +37,9 @@ SOURCES += \
     kitchen.cpp \
     drink.cpp \
     pastry.cpp \
-    game.cpp
+    game.cpp \
+    round.cpp \
+    art.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -51,7 +53,9 @@ HEADERS += \
     kitchen.h \
     drink.h \
     pastry.h \
-    game.h
+    game.h \
+    round.h \
+    art.h
 
 FORMS += \
         mainwindow.ui \
@@ -65,7 +69,9 @@ FORMS += \
     kitchen.ui \
     drink.ui \
     pastry.ui \
-    game.ui
+    game.ui \
+    round.ui \
+    art.ui
 
 CONFIG += mobility
 MOBILITY = 

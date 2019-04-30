@@ -14,5 +14,8 @@
         <file>molanghotchocolate.gif</file>
         <file>molanghotchocolate.png</file>
         <file>mlname.png</file>
+        <file>aboutclickdraft.png</file>
+        <file>aboutdraft.png</file>
+        <file>abouthoverdraft.png</file>
     </qresource>
 </RCC>

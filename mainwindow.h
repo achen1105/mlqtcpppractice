@@ -7,6 +7,8 @@
 #include "help.h"
 #include "home.h"
 #include "about.h"
+#include "game.h"
+#include "art.h"
 
 namespace Ui {
 class MainWindow;
