@@ -11,6 +11,8 @@ home::home(QWidget *parent, windows* thewindows) :
 
     QObject::connect(ui->helpButton, SIGNAL(clicked()), thewindows, SLOT(goToPage2()));
     QObject::connect(ui->aboutButton, SIGNAL(clicked()), thewindows, SLOT(goToPage1()));
+    QObject::connect(ui->startButton, SIGNAL(clicked()), thewindows, SLOT(goToPage3()));
+    QObject::connect(ui->artButton, SIGNAL(clicked()), thewindows, SLOT(goToPage4()));
 
     QMovie* background = new QMovie(":/images/molang-transparent-food.gif");
     ui->molangEating->setMovie(background);

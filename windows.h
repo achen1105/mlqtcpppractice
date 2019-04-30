@@ -23,6 +23,8 @@ public slots:
     void goToPage0();
     void goToPage1();
     void goToPage2();
+    void goToPage3();
+    void goToPage4();
 
 private:
     Ui::windows *ui;
